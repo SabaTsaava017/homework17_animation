@@ -1,0 +1,54 @@
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	transition-duration: 1s;
+	transition-delay: 1s;
+	position: absolute;
+
+}
+.box:hover{
+	background-color: black;
+	width: 1520px;
+	height: 100px;
+}
+.paragrap_style{
+	padding-top: 100px;
+	font-size: 20px;
+	color: red;
+	width: 500px;
+	transition-delay: 0.5s;
+	transition-duration: 0.5s;
+}
+.paragrap_style:hover{
+	width: 800px;
+	line-height: 25px;
+	color: green;
+	width:900px ;
+	height: 350px;
+	box-shadow: 0 24px 48px rgba(17,16,62,0.12);
+	background-color: gray;
+}
+.cricle{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background-color: gray;
+	position: relative;
+	animation-name:myanimation ;
+	animation-duration: 3s;
+	animation-delay: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+@keyframes myanimation{
+	from{
+		top:0px;
+		background-color: red;
+
+	}
+	to{
+		left: 400px;
+		background-color: green;
+	}
+}
